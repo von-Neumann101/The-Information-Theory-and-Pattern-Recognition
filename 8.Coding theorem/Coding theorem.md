@@ -89,6 +89,7 @@ $$
 $$
 所以，错误率上界为：
 $$
-P_I+\dfrac{1}{2^{M-NH(f)^+}}
+P_I+\dfrac{1}{2^{M-NH(f)^+}}=P_I+\frac1{2^{N(M/N-H(f)^+)}}
 $$
-注意到，当 $\dfrac MN>H_2(f)\Longleftrightarrow 1-\dfrac MN<1-H_2(f)\Longleftrightarrow R<C$，第二项趋于 $0$
+注意到，当 $\dfrac MN>H_2(f)\Longleftrightarrow 1-\dfrac MN<1-H_2(f)\Longleftrightarrow R<C$
+所以，当码长 $\to\infty$ 时，错误率任意小
